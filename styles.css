@@ -1,0 +1,44 @@
+body {
+    background-color: #F0EBE3;
+    background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png");
+}
+
+h1 {
+    font-family: 'Figtree', sans-serif;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+}
+
+.sub {
+    width: 85%;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    height: 6vh;
+    text-align: center!important;
+}
+
+tr:nth-child(odd) {
+    background-color: #eee;
+}
+
+tr:nth-child(even) {
+    background-color: #fff;
+}
+
+.inputbox {
+    margin-left: 10px;
+    margin-right: 10px;
+}
